@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    
+}
+
+body{
+    box-sizing: border-box;
+    width: 1920px;
+    margin: auto;
+    background: white;
+}
+
+h1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+}
+
+h2{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+}
+
+h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: black;
+}
+
+p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: black;
+    padding: 50px 50px 50px 0;
+}
+
+button{
+    background: #01996D;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 20px 50px;
+}
+button:hover{
+    background: #245852;
+}
+
+/* Шапка */
+
+.header{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 275px
+}
+.header__logo{
+    width: 80px;
+}
+.header__list{
+    list-style: none;
+    display: flex;
+}
+.header__list-item{
+    padding-right: 50px;
+}
+.header__list-link{
+    text-decoration: none;
+    color: black;
+}
+.header__list-link:hover{
+    color: #01996D;
+}
+.header__sign-in{
+    text-decoration: none;
+    color: black;
+    padding-right: 35px;
+}
+.header__sign-in:hover{
+    color: #01996D;
+}
+
+button.header__trial{
+    padding: 13px 50px;
+}
+
+/* блок Главная */
+
+.main__block-1{
+    height: 895px;
+    background-image: url(imgs/BG.jpg);
+    background-size: auto;
+    
+}
+.main__block-1__content{
+    width: 440px;
+    margin: 0 275px;
+    padding-top: 170px;
+}
+
+button.main__block-1__btn{
+    padding: 20px 50px;
+}
+
+/* Блок 2 */
+
+.main__block-2{
+    background: white;
+    margin: 85px 275px;
+}
+.main__block-2__aside{
+    float: right;
+    width: 670px;
+}
+.preHead{
+    padding: 0;
+}
+
+/* Блок 3 */
+
+.main__block-3{
+    background: white;
+    margin: 0 275px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__block-3 p{
+    padding-right: 0;
+}
+.main__block-3__col{
+    width: 390px;
+    float: left;
+    box-sizing: border-box;
+    justify-content: space-between;
+    text-align: left;
+    background: white;
+    padding: 20px 0;
+}
+.main__block-3__col.middle{
+    margin-top: 250px;
+}
+
+.col__header-1{
+    width: 390px;
+    height: 108px;
+    background-image: url(imgs/number-01.png);
+    background-size: 145px 84px;
+    background-repeat: no-repeat;
+}
+.col__header-1 h3{
+    padding-top: 52px;
+    padding-left: 80px;
+}
+
+.col__header-2{
+    width: 390px;
+    height: 108px;
+    background-image: url(imgs/number-02.png);
+    background-size: 145px 84px;
+    background-repeat: no-repeat;
+}
+.col__header-2 h3{
+    padding-top: 52px;
+    padding-left: 70px;
+}
+
+.col__header-3{
+    width: 390px;
+    height: 108px;
+    background-image: url(imgs/number-03.png);
+    background-size: 145px 108px;
+    background-repeat: no-repeat;
+}
+.col__header-3 h3{
+    padding-top: 52px;
+    padding-left: 100px;
+}
+
+/* Блок 4 */
+
+.main__block-4{
+    background: #245852;
+    height: 920px;
+}
+.main__block-4__content{
+    margin: 0 210px;
+    padding: 210px 0;
+}
+
+.main__block-4 h2{
+    color: white;
+}
+.main__block-4 p{
+    color: white;
+}
+.main__block-4__btn:hover{
+    background: white;
+    color: #01996D;    
+}
+
+aside.main__block-4__media{
+    float: right;
+    width: 895px;
+}
+
+/* Блок 5 */
+
+.main__block-5{
+    position: relative;
+    background: white;
+    margin: 0 275px;
+    padding: 120px 0;
+    margin-bottom: 150px;
+}
+.main__block-5__imgs{
+    float: left;
+    padding-right: 90px;
+}
+.main__block-5__imgs__block{
+    width: 700px
+}
+.main__block-5__imgs__block__img{
+    padding-left: 60px;
+}
+.main__block-5__imgs__block__card{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Подвал */
+
+footer{
+    background: #245852;
+}
+.footer__content{
+    margin: 0 275px;
+    padding: 100px 0;
+}
+.footer__content__list{
+    list-style: none;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 90px;
+    padding-top: 40px;
+}
+.footer__list__link{
+    color: white;
+    text-decoration: none;
+}
+.footer__list__link:hover{
+    color: #01996D;
+}
