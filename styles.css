@@ -240,9 +240,10 @@ aside.main__block-4__media{
     padding: 120px 0;
     margin-bottom: 150px;
 }
+
 .main__block-5__imgs{
     float: left;
-    padding-right: 60px;
+    padding-right: 80px;
 }
 .main__block-5__imgs__block{
     width: 700px
@@ -252,7 +253,7 @@ aside.main__block-4__media{
 }
 .main__block-5__imgs__block__card{
     position: absolute;
-    bottom: 0;
+    bottom: -70px;
     left: 0;
 }
 
